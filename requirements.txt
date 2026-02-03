@@ -1,6 +1,8 @@
 fastapi
 uvicorn
 sqlalchemy
+# FIX: Pin bcrypt to version 4.0.1 or lower
+bcrypt==4.0.1
 passlib[bcrypt]
 python-jose[cryptography]
 python-multipart
